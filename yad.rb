@@ -12,7 +12,7 @@ class Yad < Formula
   depends_on "automake" => :build
   depends_on "gettext" => :build
   depends_on "itstool" => :build
-  depends_on "webkitgtk" => :build
+  depends_on "jcudit/webkitgtk/webkitgtk" => :build
   depends_on "libtool" => :build
   depends_on "pkg-config" => :build
   depends_on "gtk+3"
