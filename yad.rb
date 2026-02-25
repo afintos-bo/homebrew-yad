@@ -5,7 +5,7 @@ class Yad < Formula
   sha256 "6748c0ecb917043326cc70646f143890151dea2fc50db5fe54439de6dc04b1e3"
 
   head do
-    url "https://github.com/v1cont/yad.git"
+    url "https://github.com/v1cont/yad.git", branch:"main"
   end
 
   depends_on "autoconf" => :build
